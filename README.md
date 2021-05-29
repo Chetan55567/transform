@@ -4,3 +4,7 @@ Ingest the files from Cloud Storage.
 Convert the lines read to dictionary objects.
 Transform the data which contains the year to a format BigQuery understands as a date.
 Output the rows to BigQuery.
+
+Get the source code from here.
+
+gsutil -m cp -R gs://spls/gsp290/dataflow-python-examples .
